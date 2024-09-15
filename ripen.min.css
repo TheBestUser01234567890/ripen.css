@@ -160,7 +160,7 @@ button:active{scale: 0.90;}
 	transform: translateY(-2px) scale(0.9);
 }
 .switch input { opacity: 0;width: 0;height: 0;}
-.sliderChecBox {
+.sliderCheckBox {
 	position: absolute;
 	cursor: pointer;
 	top: 0;
@@ -173,8 +173,8 @@ button:active{scale: 0.90;}
 	transition: .4s;
     border-radius: 7.5px;
 }
-.sliderChecBox:hover{background-color: rgba(255, 255, 255, 0.25); border:  0.25px solid #ffffff30;}
-.sliderChecBox:before {
+.sliderCheckBox:hover{background-color: rgba(255, 255, 255, 0.25); border:  0.25px solid #ffffff30;}
+.sliderCheckBox:before {
 	position: absolute;
 	content: "";
 	height: 16px;
@@ -186,13 +186,13 @@ button:active{scale: 0.90;}
 	transition: .4s;
     border-radius: 5px;
 }
-input:checked + .sliderChecBox {background-color: #f38021;border: none;}
-input:focus + .sliderChecBox {box-shadow: 0 0 1px #f38021;}
-input:checked + .sliderChecBox:before {
+input:checked + .sliderCheckBox {background-color: #f38021;border: none;}
+input:focus + .sliderCheckBox {box-shadow: 0 0 1px #f38021;}
+input:checked + .sliderCheckBox:before {
 	-webkit-transform: translateX(22px);
 	-ms-transform: translateX(22px);
 	transform: translateX(22px);
 	bottom: 4px;
 }
-.sliderChecBox.round {border-radius: 34px;}
-.sliderChecBox.round:before {border-radius: 50%;}
+.sliderCheckBox.round {border-radius: 34px;}
+.sliderCheckBox.round:before {border-radius: 50%;}
