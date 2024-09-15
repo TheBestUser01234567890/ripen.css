@@ -101,7 +101,7 @@ button:active{scale: 0.90;}
     transform: scale(1); border: 0.25px solid rgba(255, 255, 255, 0.15);} 
 .button3:active { border-top: 0.25px solid rgba(255, 255, 255, 0.25);background-color: rgba(255, 255, 255, 0.15); scale: 1;}
 
-.FileInsert{
+.fileInsert{
 	background-color: rgba(124, 124, 124, 0.25); border-radius: 5px; 
 	box-shadow: 0px -0.5px 1px rgba(95, 95, 95, 0.5);
     color: white;
@@ -112,7 +112,7 @@ button:active{scale: 0.90;}
     border-right: none;border-left: none;border-bottom: none;
     border-top: 0.25px solid rgba(241, 241, 241, 0.1176470588);
 }
-.FileInsert::-webkit-file-upload-button{
+.fileInsert::-webkit-file-upload-button{
     color: white;
     background-color: rgb(255, 123, 0);
     border-radius: 5px;
@@ -124,7 +124,7 @@ button:active{scale: 0.90;}
     -webkit-backdrop-filter: blur(35px) contrast(200%);
           backdrop-filter: blur(35px) contrast(200%);
 }
-.FileInsert::-webkit-file-upload-button:hover{
+.fileInsert::-webkit-file-upload-button:hover{
     background-color: rgba(66, 46, 26, 0.75);
     border: 0.5px solid rgba(241, 241, 241, 0.1647058824);
 }
@@ -235,7 +235,7 @@ button:active{scale: 0.90;}
 	width: 0;
 	height: 0;
 }
-.sliderChecBox {
+.sliderCheckBox {
 	position: absolute;
 	cursor: pointer;
 	top: 0;
@@ -248,8 +248,8 @@ button:active{scale: 0.90;}
 	transition: .4s;
     border-radius: 7.5px;
 }
-.sliderChecBox:hover{background-color: rgba(255, 255, 255, 0.25); border:  0.25px solid #ffffff30;}
-.sliderChecBox:before {
+.sliderCheckBox:hover{background-color: rgba(255, 255, 255, 0.25); border:  0.25px solid #ffffff30;}
+.sliderCheckBox:before {
 	position: absolute;
 	content: "";
 	height: 16px;
@@ -261,16 +261,16 @@ button:active{scale: 0.90;}
 	transition: .4s;
     border-radius: 5px;
 }
-input:checked + .sliderChecBox {background-color: #f38021;border: none;}
-input:focus + .sliderChecBox {box-shadow: 0 0 1px #f38021;}
-input:checked + .sliderChecBox:before {
+input:checked + .sliderCheckBox {background-color: #f38021;border: none;}
+input:focus + .sliderCheckBox {box-shadow: 0 0 1px #f38021;}
+input:checked + .sliderCheckBox:before {
 	-webkit-transform: translateX(22px);
 	-ms-transform: translateX(22px);
 	transform: translateX(22px);
 	bottom: 4px;
 }
-.sliderChecBox.round {border-radius: 34px;}
-.sliderChecBox.round:before {border-radius: 50%;}
+.sliderCheckBox.round {border-radius: 34px;}
+.sliderCheckBox.round:before {border-radius: 50%;}
 iframe { 
     width: 100%;
     height: 100%;
